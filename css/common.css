@@ -20,6 +20,7 @@ body {
     font-size: 16px;
     background-color: var(--dark-color);
     color: white;
+    z-index: 1;
 }
 
 .container-principal {

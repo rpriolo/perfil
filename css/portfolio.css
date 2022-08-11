@@ -1,0 +1,52 @@
+.div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 450px;
+    height: 200px;
+    /* background-color: red; */
+    margin: 16px;
+}
+
+.imagem-card {
+    background-color: blue;
+    height: 65%;
+    width: 97.5%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.border-radius-previewer {
+    object-fit: none;
+    object-position: 54% 61.5%;
+}
+
+/*
+.imagem-card img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 150px;
+}
+*/
+
+.conteudo-card {
+    background-color: var(--mid-color);
+    height: 35%;
+    padding: 8px;
+    opacity: initial;
+}
+
+.titulo-card {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.descricao-card {
+}
