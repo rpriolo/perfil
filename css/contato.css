@@ -1,18 +1,6 @@
 .contato {
     /* background-color: purple; */
-    text-align: center;
     margin: 32px auto;
-}
-
-.contato__titulo {
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.contato__conteudo {
-    line-height: 24px;
 }
 
 .div-icones {
@@ -20,7 +8,7 @@
     justify-content: space-between;
     width: 225px;
     /* background-color: red; */
-    margin: 16px auto;
+    margin: 16px auto 0;
     text-align: center;
 }
 
