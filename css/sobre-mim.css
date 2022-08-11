@@ -1,14 +1,14 @@
 .sobre {
     background-color: red;
     text-align: center;
-    margin: auto;
+    margin: 32px auto;
 }
 
 .sobre__titulo {
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
 }
 
 .sobre__conteudo {

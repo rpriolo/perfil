@@ -1,4 +1,79 @@
 .contato {
-    height: 200px;
-    background-color: purple;
+    /* background-color: purple; */
+    text-align: center;
+    margin: 32px auto;
 }
+
+.contato__titulo {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.contato__conteudo {
+    line-height: 24px;
+}
+
+.div-icones {
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+    /* background-color: red; */
+    margin: 16px auto;
+    text-align: center;
+}
+
+.icone {
+    color: var(--brand-color);
+    font-size: 56px;
+    transition: 0.5s;
+}
+
+.icone:hover {
+    color: var(--highlight-color);
+    font-size: 56px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*
+.fa-brands.fa-linkedin {
+    color: var(--brand-color);
+    font-size: 56px;
+    transition: 0.5s;
+}
+
+.fa-brands.fa-linkedin:hover {
+    color: var(--highlight-color);
+    font-size: 56px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-brands.fa-square-github {
+    color: var(--brand-color);
+    font-size: 56px;
+    transition: 0.5s;
+}
+
+.fa-brands.fa-square-github:hover {
+    color: var(--highlight-color);
+    font-size: 56px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-solid.fa-envelope {
+    color: var(--brand-color);
+    font-size: 56px;
+    transition: 0.5s;
+}
+
+.fa-solid.fa-envelope:hover {
+    color: var(--highlight-color);
+    font-size: 56px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+*/
