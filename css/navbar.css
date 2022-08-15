@@ -1,22 +1,52 @@
 .navbar {
     background-color: black;
+    padding: 18px;
     display: flex;
     justify-content: end;
+    transition: 0.5s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
 }
 
 .navbar a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 900;
-    margin: 12px 24px;
     color: white;
+    width: 150px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 8px;
+    transition: 0.5s;
+    display: inline-block;
 }
 
-.navbar a:hover {
-    
+.navbar a:hover, .navbar a:active {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 
 .navbar .destaque {
     background-color: var(--brand-color);
-    padding: 10px 38px;
+}
+
+.navbar .destaque:hover {
+    background-color: var(--highlight-color);
+}
+
+.icone-menu {
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    /* display: none; */
 }
