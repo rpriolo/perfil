@@ -1,11 +1,23 @@
 .navbar {
     background-color: black;
-    padding: 18px;
+    padding: 32px;
     display: flex;
+    flex-direction: row;
     justify-content: end;
     transition: 0.5s;
 }
 
+.lista-itens {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-menu {
+    display: inline-block;
+}
+
+/*
 nav ul {
     margin: 0;
     padding: 0;
@@ -15,6 +27,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
 }
+*/
 
 .navbar a {
     text-transform: uppercase;
@@ -48,5 +61,30 @@ nav ul li {
     background-color: black;
     color: white;
     border: none;
-    /* display: none; */
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 16px;
+    }
+    
+    .navbar a {
+        margin: 8px 0;
+    }
+    
+    .lista-itens {
+        margin: 0 0 16px 0;
+    }
+
+    .item-menu {
+        display: block;
+    }
+
+    .icone-menu {
+        display: block;
+        align-self: end;
+        margin: 16px;
+    }
 }
