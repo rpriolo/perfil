@@ -64,7 +64,8 @@ nav ul li {
     display: none;
 }
 
-@media (max-width: 768px) {
+/*
+@media (max-width: 1024px) {
     .navbar {
         flex-direction: column;
         padding: 16px;
@@ -88,3 +89,4 @@ nav ul li {
         margin: 16px;
     }
 }
+*/

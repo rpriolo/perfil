@@ -1,0 +1,10 @@
+.sobre-mim {
+    background-color: black;
+    padding: 16px 0;
+    text-align: center;
+    color: white;
+}
+
+.sobre-mim h1 {
+    text-transform: uppercase;
+}
