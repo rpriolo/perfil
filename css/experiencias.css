@@ -1,10 +1,10 @@
-.sobre-mim {
+.experiencias {
     background-color: var(--azul-escuro);
     padding: 16px 0;
     text-align: center;
     color: white;
 }
 
-.sobre-mim h2 {
+.experiencias h2 {
     text-transform: uppercase;
 }
