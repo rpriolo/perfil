@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: var(--azul-escuro);
     padding: 32px;
     display: flex;
     flex-direction: row;
@@ -49,11 +49,11 @@ nav ul li {
 }
 
 .navbar .destaque {
-    background-color: var(--brand-color);
+    background-color: var(--verde);
 }
 
 .navbar .destaque:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--verde-destaque);
 }
 
 .icone-menu {

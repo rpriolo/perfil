@@ -17,9 +17,9 @@ body {
 }
 
 :root {
-    --brand-color: #12AE8F;
-    --dark-color: #0F111A;
-    --mid-color: #475569;
-    --light-color: #F1F5F9;
-    --highlight-color: #38dfbd;
+    --verde: #12AE8F;
+    --azul-escuro: #0F111A;
+    --azul-medio: #475569;
+    --branco: #F1F5F9;
+    --verde-destaque: #38dfbd;
 }

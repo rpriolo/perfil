@@ -1,5 +1,5 @@
 .sobre-mim {
-    background-color: black;
+    background-color: var(--azul-escuro);
     padding: 16px 0;
     text-align: center;
     color: white;
