@@ -1,1 +1,3 @@
 - Criar função dark/light mode
+
+- Arrumar responsividade da navbar
