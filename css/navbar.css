@@ -43,17 +43,14 @@ nav ul li {
 }
 
 .navbar a:hover, .navbar a:active {
-    background-color: white;
+    background-color: #FFFFFF;
     color: black;
     transition: 0.5s;
 }
 
 .navbar .destaque {
-    background-color: var(--verde);
-}
-
-.navbar .destaque:hover {
     background-color: var(--verde-destaque);
+    color: #000000;
 }
 
 .icone-menu {

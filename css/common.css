@@ -16,6 +16,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    padding: 24px 0;
+    text-align: center;
+}
+
 h2 {
     /* margin-bottom: 18px; */
     text-transform: uppercase;

@@ -1,12 +1,6 @@
 .contato {
     background-color: var(--verde-destaque);
-    padding: 16px 0;
-    text-align: center;
     color: #000000;
-}
-
-.contato h2 {
-    text-transform: uppercase;
 }
 
 .contato .div-icones {

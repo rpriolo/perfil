@@ -1,10 +1,4 @@
 .experiencias {
     background-color: var(--azul-escuro);
-    padding: 16px 0;
-    text-align: center;
-    color: white;
-}
-
-.experiencias h2 {
-    text-transform: uppercase;
+    color: #FFFFFF;
 }

@@ -1,3 +1,5 @@
 - Criar função dark/light mode
 
 - Arrumar responsividade da navbar
+
+- Criar âncoras que levem às seções quando clicar nos links da navbar
