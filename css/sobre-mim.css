@@ -1,7 +1,7 @@
 .sobre-mim {
     background-color: var(--azul-escuro);
     color: #FFFFFF;
-    height: 250px;
+    min-height: 250px;
     display: flex;
     align-items: center;
 
