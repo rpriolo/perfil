@@ -2,3 +2,31 @@
     background-color: var(--azul-escuro);
     color: #FFFFFF;
 }
+
+.div-cartoes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cartao {
+    border: 1px solid var(--branco);
+    border-radius: 10px;
+    width: 300px;
+    margin: 16px;
+}
+
+.cartao img {
+    height: 200px;
+}
+
+.cartao-conteudo {
+    height: 125px;
+    background-color: var(--verde);
+    margin: 8px;
+    text-align: start;
+}
+
+.cartao-conteudo h3 {
+    font-size: 20px;
+}
