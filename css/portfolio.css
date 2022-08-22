@@ -5,43 +5,34 @@
 
 .div-cartoes {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin: 24px 0;
 }
 
 .cartao {
-    /* outline: 2px solid rgba(255, 255, 255, 1); */
-    /* outline-offset: -1px; */
-    border-radius: 20px;
-    width: 275px;
-    margin: 24px;
-    overflow: hidden;
-    background-color: red;
-    transition: 0.5s;
-}
-
-.cartao:hover img {
-    filter: grayscale(0) brightness(1.5);
-    transition: 0.5s;
-}
-
-.cartao img {
-    min-height: 200px;
-    max-height: 200px;
-    filter: grayscale(1);
-    transition: 0.5s;
-}
-
-.cartao-conteudo, .cartao-conteudo:hover {
-    min-height: 200px;
-    background-color: var(--branco);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 32px;
+    width: 300px;
     text-align: start;
-    padding: 24px;
-    color: #000000;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
 }
 
+.cartao:hover {
+    border: 1px solid var(--verde-destaque);
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--azul-escuro);
+}
 
-.cartao-conteudo h3 {
+.cartao#border-radius:hover {
+    background-image: url(../img/border-radius-previewer_min.png);
+}
+
+.cartao h3 {
     font-size: 20px;
     font-weight: 700;
 }
