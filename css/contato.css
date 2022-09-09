@@ -6,12 +6,12 @@
 .contato .div-icones {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
     margin: 24px auto;
 }
 
 .div-icones .icone {
-    font-size: 56px;
+    font-size: 64px;
     color: #000000;
     cursor: pointer;
     transition: 0.25s;
