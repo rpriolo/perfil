@@ -2,6 +2,6 @@
 
 - Arrumar responsividade da navbar
 
-- Criar âncoras que levem às seções quando clicar nos links da navbar
+// - Criar âncoras que levem às seções quando clicar nos links da navbar
 
 - Melhorar o destaque no :hover dos ícones da seção contato

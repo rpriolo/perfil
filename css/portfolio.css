@@ -25,7 +25,7 @@
     border: 1px solid var(--verde-destaque);
     cursor: pointer;
     transition: 0.5s;
-    color: var(--azul-escuro);
+    color: transparent;
 }
 
 .cartao#border-radius:hover {
