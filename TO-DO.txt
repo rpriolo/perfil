@@ -1,7 +1,13 @@
 - Criar função dark/light mode
 
-- Arrumar responsividade da navbar
+- Melhorar o destaque no :hover dos ícones da seção contato
+
+- Manter a navbar sempre fixa no topo
+
+
+
+
+
+// - Arrumar responsividade da navbar
 
 // - Criar âncoras que levem às seções quando clicar nos links da navbar
-
-- Melhorar o destaque no :hover dos ícones da seção contato
