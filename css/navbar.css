@@ -1,6 +1,7 @@
 .navbar {
+    /* background-color: red; */
     background-color: var(--azul-escuro);
-    padding: 32px;
+    padding: 24px 32px;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -15,6 +16,7 @@
 
 .item-menu {
     display: inline-block;
+    text-align: center;
 }
 
 /*
@@ -37,7 +39,7 @@ nav ul li {
     width: 150px;
     line-height: 48px;
     text-align: center;
-    margin: 0 8px;
+    margin: 8px 10px;
     transition: 0.5s;
     display: inline-block;
 }
@@ -87,3 +89,22 @@ nav ul li {
     }
 }
 */
+
+
+.navbar-toggler, .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+    margin: 8px;
+}
+
+.navbar>.container-fluid {
+    justify-content: end;
+}
+
+.menu {
+    transition: height 0.75s ease;
+}
+
+.navbar .container-fluid {
+    padding: 0;
+}
