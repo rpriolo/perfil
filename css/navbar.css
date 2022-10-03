@@ -44,7 +44,7 @@ nav ul li {
     display: inline-block;
 }
 
-.navbar a:hover, .navbar a:active {
+.navbar a:hover, .navbar a:active, .navbar a:focus {
     background-color: #FFFFFF;
     color: black;
     transition: 0.5s;
