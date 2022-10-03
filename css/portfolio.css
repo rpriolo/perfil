@@ -32,6 +32,26 @@
     background-image: url(../img/border-radius-previewer_min.png);
 }
 
+.cartao#tabuada:hover {
+    background-image: url(../img/tabuada_min.png);
+}
+
+.cartao#health-track:hover {
+    background-image: url(../img/health-track_min.png);
+}
+
+.cartao#hora-do-dia:hover {
+    background-image: url(../img/hora-do-dia_min.png);
+}
+
+.cartao#passo-a-passo:hover {
+    background-image: url(../img/passo-a-passo_min.png);
+}
+
+.cartao#analisador-de-numeros:hover {
+    background-image: url(../img/analisador-de-numeros_min.png);
+}
+
 .cartao h3 {
     font-size: 20px;
     font-weight: 700;
