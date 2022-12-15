@@ -2,12 +2,25 @@ let botaoLightDark = document.querySelector('#light-dark');
 
 botaoLightDark.addEventListener('click', () => {
 
-    let navbar = document.querySelector('.navbar');
-    navbar.classList.toggle('navbar_light');
-
+    // MUDANÇA DO ÍCONE LIGHT/DARK
     let lightDarkIcon = document.querySelector('.material-symbols-outlined');
-    lightDarkIcon.classList.toggle('material-symbols-outlined_light');
+    let icon = lightDarkIcon.innerText;
+    if (icon == 'light_mode') {
+        lightDarkIcon.innerText = 'dark_mode';
+    } else {
+        lightDarkIcon.innerText = 'light_mode';
+    }
 
-    let navbarItems = document.querySelector('.item-menu');
-    navbarItems.classList.toggle('item-menu_light')
+    // NAVBAR BGCOLOR = WHITE
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('navbar_lightmode');
+
+    // NAVBAR ITENS COLOR = BLACK
+    lightDarkIcon.classList.toggle('item-menu_lightmode');
+    
+    let navbarItems = document.querySelectorAll('.item-menu-link');
+    navbarItems.forEach(item => {
+        item.classList.toggle('item-menu_lightmode');
+    });
+
 });

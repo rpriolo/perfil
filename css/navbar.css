@@ -7,9 +7,9 @@
     transition: 0.5s;
 }
 
-/* .navbar_light {
-    background-color: red;
-} */
+.navbar_lightmode {
+    background-color: rgb(241, 241, 241);
+}
 
 .lista-itens {
     list-style: none;
@@ -22,9 +22,9 @@
     text-align: center;
 }
 
-/* .item-menu_light {
-    color: black;
-} */
+.item-menu-link {
+    color: white;
+}
 
 .item-menu.light-dark {
     color: white;
@@ -37,10 +37,6 @@
     justify-content: center;
 }
 
-/* .material-symbols-outlined_light {
-    color: black;
-} */
-
 .item-menu.light-dark a:hover, 
 .item-menu.light-dark a:active, 
 .item-menu.light-dark a:focus {
@@ -49,6 +45,16 @@
     color: var(--verde-destaque);
     transition: 0.5s;
 }
+
+.item-menu.light-dark_lightmode a:hover, 
+.item-menu.light-dark_lightmode a:active, 
+.item-menu.light-dark_lightmode a:focus {
+    /* background-color: var(--azul-escuro); */
+    background-color: transparent;
+    color: var(--verde-destaque);
+    transition: 0.5s;
+}
+
 
 /*
 nav ul {
@@ -66,7 +72,7 @@ nav ul li {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 900;
-    color: white;
+    /* color: white; */
     width: 150px;
     line-height: 48px;
     text-align: center;
@@ -75,15 +81,23 @@ nav ul li {
     display: inline-block;
 }
 
-.navbar a:hover, 
-.navbar a:active, 
-.navbar a:focus {
+.item-menu-link:hover, 
+.item-menu-link:active, 
+.item-menu-link:focus {
     background-color: #FFFFFF;
     color: black;
     transition: 0.5s;
 }
 
-.navbar .destaque {
+.navbar_light a:hover, 
+.navbar_light a:active, 
+.navbar_light a:focus {
+    background-color: var(--azul-escuro);
+    color: white !important;
+    transition: 0.5s;
+}
+
+.destaque {
     background-color: var(--verde-destaque);
     color: #000000;
 }
@@ -141,4 +155,23 @@ nav ul li {
 
 .navbar .container-fluid {
     padding: 0;
+}
+
+.item-menu_lightmode {
+    color: black;
+}
+
+.item-menu_lightmode:hover,
+.item-menu_lightmode:active,
+.item-menu_lightmode:focus {
+    color: white;
+    background-color: black;
+}
+
+#light-dark:hover,
+#light-dark:active,
+#light-dark:focus {
+    background-color: transparent;
+    color: var(--verde-destaque);
+    transition: 0.5s;
 }
