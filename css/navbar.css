@@ -1,5 +1,4 @@
 .navbar {
-    /* background-color: red; */
     background-color: var(--azul-escuro);
     padding: 24px 32px;
     display: flex;
@@ -7,6 +6,10 @@
     justify-content: end;
     transition: 0.5s;
 }
+
+/* .navbar_light {
+    background-color: red;
+} */
 
 .lista-itens {
     list-style: none;
@@ -17,6 +20,34 @@
 .item-menu {
     display: inline-block;
     text-align: center;
+}
+
+/* .item-menu_light {
+    color: black;
+} */
+
+.item-menu.light-dark {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.item-menu.light-dark a {
+    display: flex;
+    justify-content: center;
+}
+
+/* .material-symbols-outlined_light {
+    color: black;
+} */
+
+.item-menu.light-dark a:hover, 
+.item-menu.light-dark a:active, 
+.item-menu.light-dark a:focus {
+    /* background-color: var(--azul-escuro); */
+    background-color: transparent;
+    color: var(--verde-destaque);
+    transition: 0.5s;
 }
 
 /*
@@ -44,7 +75,9 @@ nav ul li {
     display: inline-block;
 }
 
-.navbar a:hover, .navbar a:active, .navbar a:focus {
+.navbar a:hover, 
+.navbar a:active, 
+.navbar a:focus {
     background-color: #FFFFFF;
     color: black;
     transition: 0.5s;
@@ -57,7 +90,8 @@ nav ul li {
 
 .icone-menu {
     font-size: 24px;
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
     color: white;
     border: none;
     display: none;
