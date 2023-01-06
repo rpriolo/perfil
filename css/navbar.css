@@ -147,7 +147,7 @@ nav ul li {
     border: none;
     box-shadow: none;
     margin: 8px;
-    padding: 12px 0;
+    padding: 0px;
 }
 
 .navbar>.container-fluid {
