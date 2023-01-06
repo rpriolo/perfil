@@ -1,4 +1,5 @@
 let botaoLightDark = document.querySelector('#light-dark');
+let iconeMenu = document.querySelector('.icone-menu');
 
 botaoLightDark.addEventListener('click', () => {
 
@@ -22,5 +23,8 @@ botaoLightDark.addEventListener('click', () => {
     navbarItems.forEach(item => {
         item.classList.toggle('item-menu_lightmode');
     });
+    
+    // ICONE DE MENU COLOR = BLACK
+    iconeMenu.classList.toggle('icone-menu_lightmode');
 
 });

@@ -34,6 +34,7 @@
 
 .item-menu.light-dark a {
     width: 25px;
+    cursor: pointer;
 }
 
 .item-menu.light-dark a:hover, 
@@ -108,6 +109,10 @@ nav ul li {
     color: white;
     border: none;
     display: none;
+}
+
+.icone-menu_lightmode {
+    color: black;
 }
 
 /*
