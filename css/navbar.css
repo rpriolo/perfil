@@ -1,11 +1,22 @@
+nav.navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 99;
+    width: 100%;
+}
+
 .navbar {
-    /* background-color: red; */
     background-color: var(--azul-escuro);
     padding: 24px 32px;
     display: flex;
     flex-direction: row;
     justify-content: end;
     transition: 0.5s;
+}
+
+.navbar_lightmode {
+    background-color: rgb(241, 241, 241);
 }
 
 .lista-itens {
@@ -18,6 +29,39 @@
     display: inline-block;
     text-align: center;
 }
+
+.item-menu-link {
+    color: white;
+}
+
+.item-menu.light-dark {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.item-menu.light-dark a {
+    width: 25px;
+}
+
+.item-menu.light-dark a:hover, 
+.item-menu.light-dark a:active, 
+.item-menu.light-dark a:focus {
+    /* background-color: var(--azul-escuro); */
+    background-color: transparent;
+    color: var(--verde-destaque);
+    transition: 0.5s;
+}
+
+.item-menu.light-dark_lightmode a:hover, 
+.item-menu.light-dark_lightmode a:active, 
+.item-menu.light-dark_lightmode a:focus {
+    /* background-color: var(--azul-escuro); */
+    background-color: transparent;
+    color: var(--verde-destaque);
+    transition: 0.5s;
+}
+
 
 /*
 nav ul {
@@ -35,7 +79,7 @@ nav ul li {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 900;
-    color: white;
+    /* color: white; */
     width: 150px;
     line-height: 48px;
     text-align: center;
@@ -44,19 +88,31 @@ nav ul li {
     display: inline-block;
 }
 
-.navbar a:hover, .navbar a:active, .navbar a:focus {
+.item-menu-link:hover, 
+.item-menu-link:active, 
+.item-menu-link:focus {
     background-color: #FFFFFF;
     color: black;
     transition: 0.5s;
 }
 
-.navbar .destaque {
+.navbar_light a:hover, 
+.navbar_light a:active, 
+.navbar_light a:focus {
+    background-color: var(--azul-escuro);
+    color: white !important;
+    transition: 0.5s;
+}
+
+.destaque {
     background-color: var(--verde-destaque);
     color: #000000;
 }
 
 .icone-menu {
     font-size: 24px;
+    /* background-color: black; */
+    background-color: transparent;
     color: white;
     border: none;
     display: none;
@@ -94,6 +150,7 @@ nav ul li {
     border: none;
     box-shadow: none;
     margin: 8px;
+    padding: 12px 0;
 }
 
 .navbar>.container-fluid {
@@ -106,4 +163,27 @@ nav ul li {
 
 .navbar .container-fluid {
     padding: 0;
+}
+
+.item-menu_lightmode {
+    color: black;
+}
+
+.item-menu_lightmode:hover,
+.item-menu_lightmode:active,
+.item-menu_lightmode:focus {
+    color: white;
+    background-color: black;
+}
+
+#light-dark {
+    font-size: 26px;
+}
+
+#light-dark:hover,
+#light-dark:active,
+#light-dark:focus {
+    background-color: transparent;
+    color: var(--verde-destaque);
+    transition: 0.5s;
 }

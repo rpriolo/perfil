@@ -20,6 +20,8 @@
 
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/e2f9e54a88.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
@@ -58,18 +60,28 @@
 
 
     <header>
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fa-solid fa-bars icone-menu"></i></span>
                 </button>
                 <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    
+                    <div class="navbar-nav mb-2 mb-lg-0">
+                        <div class="item-menu light-dark">
+                            <a class="item-menu light-dark" href="#">
+                                <span class="material-symbols-outlined" id="light-dark">light_mode</span>
+                            </a>
+                        </div>
+                    </div>
+                    
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="item-menu"><a href="#sobre-mim">Sobre mim</a></li>
-                        <li class="item-menu"><a href="#portfolio">Portfolio</a></li>
-                        <li class="item-menu"><a href="#experiencias">Experiências</a></li>
-                        <li class="item-menu"><a href="#contato" class="destaque">Contato</a></li>
+                        <li class="item-menu"><a class="item-menu-link" href="#sobre-mim">Sobre mim</a></li>
+                        <li class="item-menu"><a class="item-menu-link" href="#portfolio">Portfolio</a></li>
+                        <li class="item-menu"><a class="item-menu-link" href="#experiencias">Experiências</a></li>
+                        <li class="item-menu"><a class="item-menu-link destaque" href="#contato">Contato</a></li>
                     </ul>
+
                 </div>
             </div>
         </nav>
@@ -78,10 +90,21 @@
     <main>
         <section class="sobre-mim" id="sobre-mim">
             <div class="banner-bg"></div>
-            <div class="container-fluid col-lg-6 col-xxl-5">
+            <div class="container-fluid col-lg-9 col-xxl-6">
             <!-- <div class="container-fluid col-md-11 col-lg-10 col-xl-7"> -->
                 <h2>Sobre mim</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo minus beatae repellat a at voluptates recusandae praesentium eligendi eaque eius, quo laudantium quasi error amet, non accusantium hic ab incidunt! Doloribus officiis praesentium quia ducimus dolores iure quae quam quaerat mollitia, deserunt ipsam laboriosam eos enim provident non blanditiis libero.</p>
+                
+                <p>Olá, tudo bem? Me chamo Renato e quero te contar um pouco sobre mim!</p>
+                
+                <p>Estou noivo da Pati e temos o Abraão, nosso pug. Sou apaixonado por futebol e por tecnologia.</p>
+                
+                <p>Em 2016 me formei em Administração, porém durante minhas experiências fui percebendo que aquela não era a área que me fazia feliz. Sempre gostei muito de tecnologia e inovação, e quando percebi que gostaria de mudar de área, decidi conhecer mais sobre a área de tecnologia.</p>
+                
+                <p>Hoje estou em processo de transição de carreira para ser um desenvolvedor de softwares e cursando minha segunda graduação, agora voltada à área de programação. Paralelamente a isso, estudo em outras plataformas e cursos para aprimorar meus conhecimentos.</p>
+                
+                <p>A maior parte dos meus projetos – que você poderá conhecer mais abaixo – foi feita utilizando JavaScript, mas atualmente meus estudos estão voltados ao back-end, em especial Java e SQL.</p>
+                
+                <p>Estudando e criando meus próprios projetos, percebi que finalmente me encontrei, e essa satisfação me faz acreditar que com certeza terei sucesso nessa área.</p>
             </div>
         </section>
 
@@ -164,6 +187,7 @@
 
 
     <script src="./js/menu.js"></script>
+    <script src="./js/light-dark.js"></script>
 </body>
 
 </html>

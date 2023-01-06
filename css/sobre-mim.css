@@ -27,3 +27,8 @@
     background-position: left;
     opacity: 0.3;
 }
+
+.sobre-mim p {
+    margin: 16px 0;
+    text-align: center;
+}
