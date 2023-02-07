@@ -1,4 +1,11 @@
 .experiencias {
     background-color: var(--azul-escuro);
     color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.experiencias_lightmode {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    transition: 0.5s;
 }
