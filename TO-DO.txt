@@ -1,10 +1,3 @@
-- Criar função dark/light mode
-    > ao entrar no modo light, deve aparecer o ícone de lua
-        <span class="material-symbols-outlined">
-            dark_mode
-        </span>
-    > ao entrar no modo dark, deve aparecer o ícone de sol
-
 - Melhorar o destaque no :hover dos ícones da seção contato
 
 - Trocar nomenclatura 'Portfolio' por 'Projetos' (precisa alterar todas as referências no código)
@@ -22,3 +15,11 @@
 // - Arrumar responsividade da navbar
 
 // - Criar âncoras que levem às seções quando clicar nos links da navbar
+
+// - Criar função dark/light mode
+    > ao entrar no modo light, deve aparecer o ícone de lua
+        <span class="material-symbols-outlined">
+            dark_mode
+        </span>
+    > ao entrar no modo dark, deve aparecer o ícone de sol
+

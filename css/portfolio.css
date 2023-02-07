@@ -1,6 +1,14 @@
 .portfolio {
+    margin: 25px 0 0 0;
     background-color: var(--azul-escuro);
     color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.portfolio_lightmode {
+    background-color: rgb(241, 241, 241);
+    transition: 0.5s;
+    color: black;
 }
 
 .div-cartoes {
@@ -19,6 +27,12 @@
     text-decoration: none;
     color: #FFFFFF;
     transition: 0.5s;
+}
+
+.cartao_lightmode {
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 .cartao:hover {
