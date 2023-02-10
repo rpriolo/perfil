@@ -35,9 +35,9 @@ window.onload = function() {
         let banner = document.querySelector('.banner-bg');
         banner.classList.toggle('banner-bg_lightmode');
 
-        // PORTFOLIO BGCOLOR = WHITE
-        let portfolio = document.querySelector('.portfolio');
-        portfolio.classList.toggle('portfolio_lightmode');
+        // projetos BGCOLOR = WHITE
+        let projetos = document.querySelector('.projetos');
+        projetos.classList.toggle('projetos_lightmode');
     
         // CARTÕES
         let cartao = document.querySelectorAll('.cartao');
