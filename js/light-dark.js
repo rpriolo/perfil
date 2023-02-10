@@ -50,11 +50,14 @@ window.onload = function() {
         let experiencias = document.querySelector('.experiencias');
         experiencias.classList.toggle('experiencias_lightmode');
 
+        let experiencia = document.querySelectorAll('.experiencia');
+        experiencia.forEach(experiencia => {
+            experiencia.classList.toggle('experiencia_lightmode');
+        });
+
         // CONTATO
         let contato = document.querySelector('.contato');
         contato.classList.toggle('contato_lightmode');
-
-
 
     });
 }
