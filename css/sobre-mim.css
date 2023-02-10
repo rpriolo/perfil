@@ -8,6 +8,7 @@
     /* Ajustes para poder alterar o background sem alterar os elementos filhos */
     position: relative;
     z-index: 1;
+    transition: 0.5s;
 }
 
 .sobre-mim_lightmode {
@@ -30,19 +31,21 @@
     background-position: left;
     /* opacity: 0.3; */
     
-    background-image: linear-gradient(var(--azul-escuro), transparent, transparent, var(--azul-escuro)),
+    background-image: linear-gradient(var(--azul-escuro), transparent, var(--azul-escuro)),
     linear-gradient(217deg, rgba(23, 54, 79,.8), rgba(23, 54, 79,0) 70.71%),
     linear-gradient(127deg, rgba(60, 108, 136,.8), rgba(60, 108, 136,0) 70.71%),
     linear-gradient(336deg, rgba(113, 173, 198,.8), rgba(113, 173, 198,0) 70.71%),
     url(../img/banner5.jpg);
 
-    opacity: 0.6;
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .sobre-mim .banner-bg_lightmode {
+    background-image: linear-gradient(rgb(241, 241, 241), transparent,rgb(241, 241, 241)),
+    url(../img/banner5_lightmode.jpg);
     opacity: 1;
-    filter: contrast(1.9);
-    background-color: var(--azul);
+    transition: 0.5s;
 }
 
 .sobre-mim p {
