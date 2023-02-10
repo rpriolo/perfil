@@ -1,10 +1,8 @@
-- Melhorar o destaque no :hover dos ícones da seção contato
-
 - Trocar nomenclatura 'Portfolio' por 'Projetos' (precisa alterar todas as referências no código)
 
 - Classificar os itens do menu de navegação do topo como <ol> (pois semânticamente eu estou dizendo que quero que eles sempre apareçam naquela ordem especificada (que é a mesma ordem que eles são apresentados no decorrer da página))
 
-
+- Inserir o menu dentro do background do 'Sobre mim'
 
 
 
@@ -23,3 +21,4 @@
         </span>
     > ao entrar no modo dark, deve aparecer o ícone de sol
 
+// - Melhorar o destaque no :hover dos ícones da seção contato

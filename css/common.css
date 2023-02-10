@@ -30,16 +30,17 @@ h2 {
 }
 
 :root {
-    --verde: #12AE8F;
+    --azul: #0493ED;
+    --azul-destaque: #04DDFB;
     --azul-escuro: #0F111A;
     --azul-medio: #475569;
     --branco: #F1F5F9;
-    --verde-destaque: #38DFBD;
 }
 
 body::-webkit-scrollbar {
     width: 12px;
 }
+
 body::-webkit-scrollbar-track {
     background: black;
 }

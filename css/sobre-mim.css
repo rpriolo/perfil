@@ -42,7 +42,7 @@
 .sobre-mim .banner-bg_lightmode {
     opacity: 1;
     filter: contrast(1.9);
-    background-color: var(--verde);
+    background-color: var(--azul);
 }
 
 .sobre-mim p {

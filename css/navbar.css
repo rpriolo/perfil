@@ -42,7 +42,7 @@
 .item-menu.light-dark a:focus {
     /* background-color: var(--azul-escuro); */
     background-color: transparent;
-    color: var(--verde-destaque);
+    color: var(--azul-destaque);
     transition: 0.5s;
 }
 
@@ -51,7 +51,7 @@
 .item-menu.light-dark_lightmode a:focus {
     /* background-color: var(--azul-escuro); */
     background-color: transparent;
-    color: var(--verde-destaque);
+    color: var(--azul-destaque);
     transition: 0.5s;
 }
 
@@ -98,7 +98,7 @@ nav ul li {
 }
 
 .destaque {
-    background-color: var(--verde-destaque);
+    background-color: var(--azul-destaque);
     color: #000000;
 }
 
@@ -181,6 +181,6 @@ nav ul li {
 #light-dark:active,
 #light-dark:focus {
     background-color: transparent;
-    color: var(--verde-destaque);
+    color: var(--azul-destaque);
     transition: 0.5s;
 }
