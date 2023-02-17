@@ -12,30 +12,42 @@ window.onload = function() {
         } else {
             lightDarkIcon.innerText = 'light_mode';
         }
+
+        lightDarkIcon.classList.toggle('light-dark_lightmode');
+
+        // BODY BGCOLOR = WHITE
+        let body = document.querySelector('body');
+        body.classList.toggle('lightmode');
     
         // NAVBAR BGCOLOR = WHITE
-        let navbar = document.querySelector('.navbar');
-        navbar.classList.toggle('navbar_lightmode');
+        // let navbar = document.querySelector('.navbar');
+        // navbar.classList.toggle('navbar_lightmode');
     
         // NAVBAR ITENS COLOR = BLACK
         lightDarkIcon.classList.toggle('item-menu_lightmode');
         
-        let navbarItems = document.querySelectorAll('.item-menu-link');
+        let navbarItems = document.querySelectorAll('.navbar a');
         navbarItems.forEach(item => {
             item.classList.toggle('item-menu_lightmode');
         });
+
+        let itemDestaque = document.querySelector('.destaque');
+        itemDestaque.classList.toggle('destaque_lightmode');
         
         // ICONE DE MENU COLOR = BLACK
         iconeMenu.classList.toggle('icone-menu_lightmode');
         
         // SOBRE MIM
+        let logo = document.querySelector('.logo');
+        logo.classList.toggle('logo_lightmode');
+
         let sobre = document.querySelector('.sobre-mim');
         sobre.classList.toggle('sobre-mim_lightmode');
         
         let banner = document.querySelector('.banner-bg');
         banner.classList.toggle('banner-bg_lightmode');
 
-        // projetos BGCOLOR = WHITE
+        // PROJETOS BGCOLOR = WHITE
         let projetos = document.querySelector('.projetos');
         projetos.classList.toggle('projetos_lightmode');
     

@@ -1,27 +1,20 @@
 .projetos {
-    /* margin: 25px 0 0 0; */
-    background-color: var(--azul-escuro);
     color: #FFFFFF;
-    transition: 0.5s;
-}
-
-.projetos_lightmode {
-    background-color: rgb(241, 241, 241);
-    transition: 0.5s;
-    color: black;
+    /* transition: 0.5s; */
 }
 
 .div-cartoes {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: center;
-    margin: 24px 0;
+    margin: 1.5rem auto;
+    max-width: 996px;
 }
 
 .cartao {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 32px;
+    padding: 2rem;
     width: 300px;
     text-align: start;
     text-decoration: none;
@@ -29,10 +22,10 @@
     transition: 0.5s;
 }
 
-.cartao_lightmode {
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-
+@media (max-width: 671px) {
+    .cartao {
+        width: 100%;
+    }
 }
 
 .cartao:hover {
@@ -66,7 +59,17 @@
     background-image: url(../img/analisador-de-numeros_min.png);
 }
 
-.cartao h3 {
-    font-size: 20px;
-    font-weight: 700;
+/* LIGHT MODE */
+
+.projetos_lightmode {
+    background-color: var(--branco);
+    /* transition: 0.5s; */
+    color: #000000;
 }
+
+.cartao_lightmode {
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+/* LIGHT MODE */

@@ -6,19 +6,19 @@
 .contato .div-icones {
     display: flex;
     justify-content: space-between;
-    width: 300px;
-    margin: 24px auto;
+    max-width: 300px;
+    margin: 1.5rem auto;
 }
 
 .div-icones .icone {
-    font-size: 64px;
+    font-size: 4rem;
     color: #000000;
     cursor: pointer;
-    transition: 0.25s;
+    transition: 0.5s;
 }
 
-.div-icones .icone:hover, .div-icones .icone:active {
-    /* color: rgba(0, 0, 0, 0.6); */
-    color: #cafbfb;
-    transition: 0.25s;
+.div-icones .icone:hover,
+.div-icones .icone:active {
+    color: rgb(200, 250, 255);
+    transition: 0.5s;
 }

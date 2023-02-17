@@ -1,54 +1,81 @@
 .sobre-mim {
-    background-color: var(--azul-escuro);
     color: #FFFFFF;
-    min-height: 750px;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-
-    /* Ajustes para poder alterar o background sem alterar os elementos filhos */
+    justify-content: center;
     position: relative;
-    z-index: 1;
+    top: -88px;
     transition: 0.5s;
 }
 
-.sobre-mim_lightmode {
-    color: black;
-}
-
-.sobre-mim .banner-bg {
-    /* Ajustes do background */
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    /* opacity: 0.3; */
-    
-    background-image: linear-gradient(var(--azul-escuro), transparent, var(--azul-escuro)),
-    linear-gradient(217deg, rgba(23, 54, 79,.8), rgba(23, 54, 79,0) 70.71%),
-    linear-gradient(127deg, rgba(60, 108, 136,.8), rgba(60, 108, 136,0) 70.71%),
-    linear-gradient(336deg, rgba(113, 173, 198,.8), rgba(113, 173, 198,0) 70.71%),
-    url(../img/banner5.jpg);
-
-    opacity: 0.7;
+.logo {
+    max-width: 150px;
+    margin-bottom: 1.5rem;
     transition: 0.5s;
 }
 
-.sobre-mim .banner-bg_lightmode {
-    background-image: linear-gradient(rgb(241, 241, 241), transparent,rgb(241, 241, 241)),
-    url(../img/banner5_lightmode.jpg);
-    opacity: 1;
-    transition: 0.5s;
+@media (min-width: 0px) {
+    .logo {
+        width: 5rem;
+        margin-top: 4.5rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .logo {
+        width: 6rem;
+        margin-top: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 7rem;
+        margin-top: 1.5rem;
+    }
+}
+
+.esconder {
+    display: none;
+}
+
+.mostrar {
+    display: initial;
 }
 
 .sobre-mim p {
-    margin: 16px 0;
+    margin: 0.5rem 0;
     text-align: center;
 }
+
+.banner-bg {
+    background-image: linear-gradient(transparent, var(--azul-escuro)),
+    linear-gradient(217deg, rgba(23, 54, 79, 1), rgba(23, 54, 79, 0) 70.71%),
+    linear-gradient(127deg, rgba(60, 108, 136, 1), rgba(60, 108, 136, 0) 70.71%),
+    linear-gradient(336deg, rgba(113, 173, 198, 1), rgba(113, 173, 198, 0) 70.71%),
+    url(../img/bg.png);
+    background-position: left;
+}
+
+/* LIGHT MODE */
+
+.banner-bg_lightmode {
+    background-image: linear-gradient(transparent, var(--branco)),
+    linear-gradient(217deg, rgba(23, 54, 79, .1), rgba(23, 54, 79, 0) 70.71%),
+    linear-gradient(127deg, rgba(60, 108, 136, .1), rgba(60, 108, 136, 0) 70.71%),
+    linear-gradient(336deg, rgba(113, 173, 198, .1), rgba(113, 173, 198, 0) 70.71%),
+    url(../img/bg_light.png);
+    transition: 0.5s;
+}
+
+.logo_lightmode {
+    filter: brightness(0);
+}
+
+.sobre-mim_lightmode {
+    color: #000000;
+}
+
+/* LIGHT MODE */
