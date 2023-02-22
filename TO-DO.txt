@@ -1,6 +1,5 @@
-- Classificar os itens do menu de navegação do topo como <ol> (pois semânticamente eu estou dizendo que quero que eles sempre apareçam naquela ordem especificada (que é a mesma ordem que eles são apresentados no decorrer da página))
+- Inserir favicon no HTML
 
-- Inserir o menu dentro do background do 'Sobre mim'
 
 
 
@@ -23,4 +22,16 @@
 
 // - Trocar nomenclatura 'Portfolio' por 'Projetos' (precisa alterar todas as referências no código)
 
+// - Classificar os itens do menu de navegação do topo como <ol> (pois semânticamente eu estou dizendo que quero que eles sempre apareçam naquela ordem especificada (que é a mesma ordem que eles são apresentados no decorrer da página))
+
+// - Criar favicon com logo
+
+// - Ajustar min-height: 750px; do .sobre-mim para ser mais curto em telas menores
+
+// - Adicionar logo no header dentro da main
+
+// - Inserir o menu dentro do background do 'Sobre mim'
+
+// - Refatorar código
+    > separar CSS normal do dark/light
 

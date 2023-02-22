@@ -1,6 +1,5 @@
 .experiencias {
     color: #FFFFFF;
-    /* transition: 0.5s; */
 }
 
 .experiencia {
@@ -27,7 +26,6 @@
 .experiencias_lightmode {
     background-color: var(--branco);
     color: #000000;
-    /* transition: 0.5s; */
 }
 
 .experiencia_lightmode {

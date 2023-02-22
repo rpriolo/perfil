@@ -1,6 +1,5 @@
 .projetos {
     color: #FFFFFF;
-    /* transition: 0.5s; */
 }
 
 .div-cartoes {
@@ -39,6 +38,10 @@
     background-image: url(../img/border-radius-previewer_min.png);
 }
 
+.cartao#border-radius span {
+    font-style: italic;
+}
+
 .cartao#tabuada:hover {
     background-image: url(../img/tabuada_min.png);
 }
@@ -49,6 +52,7 @@
 
 .cartao#hora-do-dia:hover {
     background-image: url(../img/hora-do-dia_min.png);
+
 }
 
 .cartao#passo-a-passo:hover {
@@ -63,7 +67,6 @@
 
 .projetos_lightmode {
     background-color: var(--branco);
-    /* transition: 0.5s; */
     color: #000000;
 }
 
