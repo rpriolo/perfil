@@ -1,11 +1,35 @@
 .experiencias {
-    background-color: var(--azul-escuro);
     color: #FFFFFF;
-    transition: 0.5s;
 }
 
-.experiencias_lightmode {
-    background-color: rgb(241, 241, 241);
-    color: black;
-    transition: 0.5s;
+.experiencia {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 1.5rem auto;
+    padding: 2rem;
+    text-align: start;
 }
+
+@media (max-width: 1327px) {
+    .experiencia {
+        max-width: 624px;
+    }
+}
+
+@media (min-width: 1328px) {
+    .experiencia {
+        width: 948px;
+    }
+}
+
+/* LIGHT MODE */
+
+.experiencias_lightmode {
+    background-color: var(--branco);
+    color: #000000;
+}
+
+.experiencia_lightmode {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* LIGHT MODE */

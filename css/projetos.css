@@ -1,27 +1,19 @@
-.portfolio {
-    margin: 25px 0 0 0;
-    background-color: var(--azul-escuro);
+.projetos {
     color: #FFFFFF;
-    transition: 0.5s;
-}
-
-.portfolio_lightmode {
-    background-color: rgb(241, 241, 241);
-    transition: 0.5s;
-    color: black;
 }
 
 .div-cartoes {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: center;
-    margin: 24px 0;
+    margin: 1.5rem auto;
+    max-width: 996px;
 }
 
 .cartao {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 32px;
+    padding: 2rem;
     width: 300px;
     text-align: start;
     text-decoration: none;
@@ -29,14 +21,14 @@
     transition: 0.5s;
 }
 
-.cartao_lightmode {
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-
+@media (max-width: 671px) {
+    .cartao {
+        width: 100%;
+    }
 }
 
 .cartao:hover {
-    border: 1px solid var(--verde-destaque);
+    border: 1px solid var(--azul-destaque);
     cursor: pointer;
     transition: 0.5s;
     color: transparent;
@@ -44,6 +36,10 @@
 
 .cartao#border-radius:hover {
     background-image: url(../img/border-radius-previewer_min.png);
+}
+
+.cartao#border-radius span {
+    font-style: italic;
 }
 
 .cartao#tabuada:hover {
@@ -56,6 +52,7 @@
 
 .cartao#hora-do-dia:hover {
     background-image: url(../img/hora-do-dia_min.png);
+
 }
 
 .cartao#passo-a-passo:hover {
@@ -66,7 +63,16 @@
     background-image: url(../img/analisador-de-numeros_min.png);
 }
 
-.cartao h3 {
-    font-size: 20px;
-    font-weight: 700;
+/* LIGHT MODE */
+
+.projetos_lightmode {
+    background-color: var(--branco);
+    color: #000000;
 }
+
+.cartao_lightmode {
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+/* LIGHT MODE */
