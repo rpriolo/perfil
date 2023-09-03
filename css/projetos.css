@@ -31,7 +31,15 @@
     border: 1px solid var(--azul-destaque);
     cursor: pointer;
     transition: 0.5s;
+}
+
+.cartao:hover {
     color: transparent;
+    transition: 0ms;
+}
+
+.cartao#no-background:hover {
+    color: #FFFFFF;
 }
 
 .cartao#border-radius:hover {
@@ -73,6 +81,9 @@
 .cartao_lightmode {
     color: #000000;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
+.cartao_lightmode#no-background:hover {
+    color: #000000;
 }
 /* LIGHT MODE */
