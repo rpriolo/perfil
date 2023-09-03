@@ -9,6 +9,25 @@
     text-align: start;
 }
 
+.experiencia h3 {
+    margin-top: 0.25rem;
+}
+
+.experiencia ol {
+    list-style-type: square;
+    font-size: 1.1rem;
+    margin-left: -0.9rem;
+}
+
+.experiencia li {
+    margin: 0.25rem 0;
+}
+
+.experiencia ol li em {
+    font-style: unset;
+    font-weight: 500;
+}
+
 @media (max-width: 1327px) {
     .experiencia {
         max-width: 624px;
